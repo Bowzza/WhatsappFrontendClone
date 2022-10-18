@@ -1,0 +1,33 @@
+.searcharea {
+    background-color: #fff;
+    padding: 8px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.searcharea > .inputsearch {
+    border: none;
+    background-color: #F0F2F5;
+    height: 35px;
+    width: 90%;
+    border-radius: 7px;
+    outline: none;
+    padding-left: 50px;
+}
+
+.bi-gear {
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    transition: all .2s;
+}
+
+.bi-gear:active {
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    padding: 10px;
+}

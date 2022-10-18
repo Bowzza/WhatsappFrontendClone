@@ -1,0 +1,25 @@
+<div class="topbar">
+    <div class="left">
+        <img src="../../../assets/profile.jpg" alt="">
+        <div class="icons-right">
+            <i class="bi bi-gear"></i>
+            <i class="bi bi-chat-left-text-fill"></i>
+            <i class="bi bi-three-dots-vertical"></i>
+        </div>
+    </div>
+    <div class="right">
+        <div class="rightmenu-leftside">
+            <img [src]="chat?.img" alt="picture">
+            <div>
+                <p class="chat-name">{{chat?.name}}</p>
+                <p class="chat-members">
+                    {{chat?.members}}
+                </p>
+            </div>
+        </div>
+        <div class="icons-right">
+            <i class="bi bi-search"></i>
+            <i class="bi bi-three-dots-vertical"></i>
+        </div>
+    </div>
+</div>

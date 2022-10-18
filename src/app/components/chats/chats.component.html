@@ -1,0 +1,3 @@
+<section @stagger class="chats">
+    <app-chat *ngFor="let chat of chatBeforeFilter" [chat]="chat" (click)="switchChat(chat)"></app-chat>
+</section>

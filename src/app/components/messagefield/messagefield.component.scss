@@ -1,0 +1,21 @@
+.messagefield {
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    padding-left: 15px;
+    height: 40px;
+    width: 80%;
+    font-size: 16px;
+    // color: rgb(80, 80, 80);
+}  
+
+.messagefield::placeholder {
+    font-size: 16px;
+    color: gray;
+    padding-left: 6px;
+    line-height: 40px;
+}
+
+.chaticon {
+    font-size: 25px;
+}

@@ -1,0 +1,69 @@
+.green-banner {
+    height: 130px;
+    background-color: #00A884;
+    position: relative;
+}
+
+.whatsapp {
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 85%;
+    height: 97vh;
+    background-color: #F0F2F5;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.main-content {
+    height: calc(100% - 60px);
+    display: flex;
+}
+
+.leftside {
+    width: 30%;
+    height: 100%;
+}
+
+.rightside {
+    position: relative;
+    background: url('./../assets/bg.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 70%;
+}
+
+.bottomarea {
+    position: fixed;
+    bottom: 0;
+    width: 70%;
+    background-color: #F0F2F5;
+    height: 60px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.chats {
+    background-color: #fff;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+    align-items: flex-start;
+} 
+
+.chats::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+.chats::-webkit-scrollbar-track {
+    background: #fff; 
+}
+   
+  /* Handle */
+.chats::-webkit-scrollbar-thumb {
+    background: #aaabac; 
+}

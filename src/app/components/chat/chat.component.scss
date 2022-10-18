@@ -1,0 +1,81 @@
+.chat {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding: 10px;
+}
+
+.selectedChat {
+    position: relative;
+    background-color: #F0F2F5;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    padding: 10px;
+}
+
+.chat > p {
+    font-size: 12px;
+    color: gray; 
+    margin-bottom: 22px;
+}
+
+.selectedChat > p {
+    font-size: 12px;
+    color: gray; 
+    margin-bottom: 22px;
+}
+
+.chat:hover {
+    cursor: pointer;
+    background-color: #f5f5f5;
+}
+
+.selectedChat:hover {
+    cursor: pointer;
+}
+
+.chat-leftside {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    flex-grow: 1;
+}
+
+.chat-leftside > img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.chat-leftside > div > p {
+    margin-top: 4px;
+    font-size: 13.5px;
+    color: gray;
+}
+
+.bi-caret-down-fill {
+    position: absolute;
+    color: rgb(150, 150, 150);
+    background-color: transparent;
+    font-size: 17px;
+    padding: 0px;
+    border-radius: 0%;
+    bottom: 12px;
+    right: 1px;
+    opacity: 0;
+    transition: .2s;
+}
+
+.chat:hover > .bi-caret-down-fill {
+    right: 10px;
+    opacity: 1;
+} 
+
+.selectedChat:hover > .bi-caret-down-fill {
+    right: 10px;
+    opacity: 1;
+} 
+

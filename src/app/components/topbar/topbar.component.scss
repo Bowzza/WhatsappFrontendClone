@@ -1,0 +1,72 @@
+.topbar {
+    height: 60px;
+    width: 100%;
+    display: flex;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.topbar > .left {
+    display: flex;
+    padding: 10px;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    border-right: 1px solid lightgray;
+}
+
+.topbar > .left > img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.topbar > .left > .icons-right {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.topbar > .right {
+    padding: 10px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar > .right > .icons-right {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.topbar > .right > .rightmenu-leftside {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.rightmenu-leftside > img {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.chat-name {
+
+}
+
+.topbar > .right > .rightmenu-leftside > div > .chat-members {
+    font-size: 13.5px;
+    color: gray;
+    margin-top: 4px;
+}
+
+.top-person-circle {
+    font-size: 37px;
+}

@@ -1,0 +1,19 @@
+<section [ngClass]="{'selectedChat': chat.selectedChat, 'chat': !chat.selectedChat}">
+    <div class="chat-leftside">
+        <img [src]="chat?.img" alt="picture">
+        <div>
+            {{chat?.name}}
+            <p>
+                {{chat?.members}}
+            </p>
+        </div>
+    </div>
+    <p>Gestern</p>
+    <i class="bi bi-caret-down-fill"  [matMenuTriggerFor]="menu"></i>
+    <mat-menu #menu="matMenu">
+        <button mat-menu-item>Chat fixieren</button>
+        <button mat-menu-item>Chat löschen</button>
+        <button mat-menu-item>Chat archivieren</button>
+        <button mat-menu-item>Als ungelesen markieren</button>
+      </mat-menu>
+</section>

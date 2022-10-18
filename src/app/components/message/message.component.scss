@@ -1,0 +1,63 @@
+.message {
+    margin-top: 20px;
+    background-color: #D9FDD3;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    padding: 3px 10px;
+    width: 30%;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.message > div > .person {
+    color: green;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.message > div > .text {
+    margin-top: 3px;
+    font-weight: normal;
+    font-size: 15px;
+    max-width: 230px;
+    overflow-wrap: break-word;
+}
+
+.message > .timestamp {
+    color: gray;
+    font-size: 11px;
+    display: flex;
+    align-items: flex-end;
+    gap: 3px;
+    margin-top: 28px;
+}
+
+.bi {
+    background-color: transparent;
+    padding: 0px;
+    border-radius: 0%;
+}
+
+.bi-arrow-down-short {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 3px;
+    right: -4px;
+    transition: .15s;
+}
+
+.bi-check2-all {
+    font-size: 16px;
+    color: #13abec;
+}
+
+.message:hover .bi-arrow-down-short {
+    opacity: 1;
+    right: 3px;
+}

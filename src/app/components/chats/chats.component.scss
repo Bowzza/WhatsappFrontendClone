@@ -1,0 +1,20 @@
+
+.chats {
+    background-color: #fff;
+    height: calc(100% - 50px);
+    overflow-y: auto;
+} 
+
+.chats::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+.chats::-webkit-scrollbar-track {
+    background: #fff; 
+}
+   
+  /* Handle */
+.chats::-webkit-scrollbar-thumb {
+    background: #aaabac; 
+}
